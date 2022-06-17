@@ -375,6 +375,7 @@
                         <groupId>io.spring.javaformat</groupId>
                         <artifactId>spring-javaformat-maven-plugin</artifactId>
                         <versionRange>[0,)</versionRange>
+                        
                         <goals>
                           <goal>validate</goal>
                         </goals>
@@ -388,7 +389,9 @@
               </configuration>
             </plugin>
           </plugins>
+          <finalName>spring-boot-image</finalName>
         </pluginManagement>
+        
       </build>
     </profile>
   </profiles>
